@@ -6,3 +6,98 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	color: whitesmoke;
+}
+/*título*/
+#bienvenida{
+	background-color: #F78E69;
+	padding-bottom: 15px;
+}
+.titulo{
+	text-align: right;
+	font-size: 25px;
+	padding: 25px;
+}
+.titulo p{
+	text-align: right;
+	font-size: 20px;
+	padding: 30px;
+}
+/*imagen*/
+.uno{
+	background: url('../img/uno.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 230px 0;
+}
+/*texto*/
+.caja-panda{
+	background-color: #ABE188;
+	margin: 0;
+}
+.texto-panda h2{
+	text-align: center;
+	padding: 15px;
+}
+.texto-panda{
+	background-color: #F78E69;
+	color: white;
+	text-align: center;
+	width: 64%;
+	margin: 0 auto;
+	padding: 30px;
+}
+/*imagen2*/
+.segunda-foto{
+	background-color: #F78E69;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.dos{
+	background: url('../img/dos.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 450px 0;
+}
+/*imagenes pequeñas de pandas*/
+.imagenes-pequenias{
+	background-color: #ABE188;
+	margin: 0;
+}
+#fotos h2{
+	text-align: center;
+	padding: 20px;
+}
+#fotos .pictures-chicas{/*no sé ponerla al centro :(*/
+	border: 8px solid #FFFFFF;
+	margin: 10px;
+}
+/*tercera foto*/
+.tercera-foto{
+	background-color: #F78E69;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.tres{
+	background: url('../img/tres.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 450px 0;
+}
+/*footer*/
+.footr{
+	background-color: #F78E69;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+footer{
+	text-align: right;
+	font-weight: 700;
+	margin: 10px;
+
+}
